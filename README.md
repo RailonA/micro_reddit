@@ -1,24 +1,49 @@
-# README
+# ruby-on-rails-blog-app
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+This project is a all about building three Database tables and associating them together through user_id.  
 
-* Ruby version
+ 
+## Built With
 
-* System dependencies
+- RUBY
+- Ruby Twitter Gem
+- Visual Code
 
-* Configuration
 
-* Database creation
+#### Clone the repository
 
-* Database initialization
+- Click on the "code" button above on this page and copy the link to the repository
+- Open a terminal (CTRL + ALT + T), type `git clone` and paste the link you copied in the previous step, then hit Enter
+Ex: ‘git clone git@github.com:RailonA/micro_reddit.git’
+- Go to the cloned repository using `cd` command
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+## Authors
 
-* Deployment instructions
+👤 **Railon Acosta**
+- GitHub: [@railonA](https://github.com/RailonA)
+- Linkedin: [@railonAcosta](https://www.linkedin.com/in/railon-acosta-81265180/)
+- Twitter: [@railonAcosta](https://twitter.com/RailonAcosta)
 
-* ...
+
+👤 **Railon Acosta**
+- GitHub: [@railonA](https://github.com/RailonA)
+- Linkedin: [@railonAcosta](https://www.linkedin.com/in/railon-acosta-81265180/)
+- Twitter: [@railonAcosta](https://twitter.com/RailonAcosta)
+
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/RailonA/micro_reddit/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+Thanks to both parties involved in the development of this project.

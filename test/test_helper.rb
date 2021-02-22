@@ -1,6 +1,11 @@
+# rubocop:disable Layout/LineLength
+# rubocop:disable Style/ClassAndModuleChildren
+
+# frozen_string_literal: true
+
 ENV['RAILS_ENV'] ||= 'test'
-require_relative "../config/environment"
-require "rails/test_help"
+require_relative '../config/environment'
+require 'rails/test_help'
 
 class ActiveSupport::TestCase
   # Run tests in parallel with specified workers
@@ -11,3 +16,5 @@ class ActiveSupport::TestCase
 
   # Add more helper methods to be used by all tests here...
 end
+# rubocop:enable Layout/LineLength
+# rubocop:enable Style/ClassAndModuleChildren
