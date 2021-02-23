@@ -1,3 +1,4 @@
+# rubocop:disable Style/Documentation
 # frozen_string_literal: true
 
 class CreateComments < ActiveRecord::Migration[6.1]
@@ -12,3 +13,4 @@ class CreateComments < ActiveRecord::Migration[6.1]
     end
   end
 end
+# rubocop:enable Style/Documentation

@@ -1,3 +1,4 @@
+# rubocop:disable Layout/LineLength
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
@@ -14,3 +15,4 @@ if !defined?(Spring) && [nil, 'development', 'test'].include?(ENV['RAILS_ENV'])
     # Ignore when Spring is not installed.
   end
 end
+# rubocop:enable Layout/LineLength

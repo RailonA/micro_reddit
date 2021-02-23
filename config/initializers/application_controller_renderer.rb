@@ -7,3 +7,4 @@
 #     https: false
 #   )
 # end
+# rubocop:enable Style/Documentation
