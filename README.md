@@ -1,7 +1,7 @@
 # ruby-on-rails-blog-app
 
 
-This project is a all about building three Database tables and associating them together through user_id.  
+This project is all about building three Database tables and associating them together through user_id.  
 
  
 ## Built With
