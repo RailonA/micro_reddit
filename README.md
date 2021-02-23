@@ -7,18 +7,46 @@ This project is a all about building three Database tables and associating them 
 ## Built With
 
 - RUBY
-- Ruby Twitter Gem
+- Ruby On Rails
 - Visual Code
 
+## GET STARTED
 
+#### Requirements 
+
+- At least one code editor installed (VS Code for example)
+- Git installed
+- Ruby installed
 #### Clone the repository
 
 - Click on the "code" button above on this page and copy the link to the repository
-- Open a terminal (CTRL + ALT + T), type `git clone` and paste the link you copied in the previous step, then hit Enter
-Ex: ‘git clone git@github.com:RailonA/micro_reddit.git’
-- Go to the cloned repository using `cd` command
+- Run `git clone git@github.com:RailonA/micro_reddit.git`
+- Go to the cloned repository run `cd micro_reddit`
+
+#### Installed required Gem
+
+- In the terminale, run `bundle install`
+- [optional] Run `bundle update`
+
+#### Set up the database tables 
+
+Run `rails db:migrate` and make sure the commande succeded
 
 
+#### Test the tables
+
+- First run `rails c`
+- In the rails consolem make sure all the tables are working correctly. Run `User` then `Comment` and after `Post` and check that it doesn't throw an error
+- Then create at least one user, one post and one comment Run 
+
+`u = User.create(user_name: 'PLicdj', email: 'paci@gmail.com', password: 'abc123QBC!', password_confirmation: 'abc123QBC!')` Creates a user
+`p = Post.create(url_link: 'www.google.com', user_id: '1')` creates a post
+`c = Comment.create(comment_body: 'Something okay>', user_id: '1', post_id: '1')` creates a comment on the created post
+`pp User.all` shows the list of users stored in the database. The pp is optional but displays objects easy to read
+`pp User.first` shows details of the first user
+`pp User.first.post` shows the post of the first user, if no post for the user, it displays an empty array
+`pp User.first.comment` displays list of the user's comments
+`pp Post.first.comment` displays the list of comments that belongs to the specific post
 ## Authors
 
 👤 **Railon Acosta**
