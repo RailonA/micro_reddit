@@ -1,3 +1,5 @@
+# rubocop:disable Style/Documentation
+
 # frozen_string_literal: true
 
 require_relative 'boot'
@@ -22,3 +24,5 @@ module MicroReddit
     # config.eager_load_paths << Rails.root.join("extras")
   end
 end
+
+# rubocop:enable Style/Documentation
