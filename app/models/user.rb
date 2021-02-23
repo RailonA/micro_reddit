@@ -1,7 +1,4 @@
 # rubocop:disable Layout/LineLength
-# rubocop:disable Style/Documentation
-
-# frozen_string_literal: true
 
 class User < ApplicationRecord
   has_many :post
@@ -15,4 +12,3 @@ class User < ApplicationRecord
   validates :password_digest, presence: true, format: { with: /\A[(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}]+\z/, message: 'Minimum eight characters, at least one uppercase letter, one lowercase letter, one number and one special character:' }
 end
 # rubocop:enable Layout/LineLength
-# rubocop:enable Style/Documentation
