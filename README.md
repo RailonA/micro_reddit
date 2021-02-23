@@ -35,17 +35,17 @@ Run `rails db:migrate` and make sure the commande succeded
 
 #### Test the tables
 
-1. First run `rails c`
-2. In the rails consolem make sure all the tables are working correctly. Run `User` then `Comment` and after `Post` and check that it doesn't throw an error
-3. Then create at least one user, one post and one comment Run 
-3. `u = User.create(user_name: 'PLicdj', email: 'paci@gmail.com', password: 'abc123QBC!', password_confirmation: 'abc123QBC!')` Creates a user
-4. `p = Post.create(url_link: 'www.google.com', user_id: '1')` creates a post
-5. `c = Comment.create(comment_body: 'Something okay>', user_id: '1', post_id: '1')` creates a comment on the created post
-6. `pp User.all` shows the list of users stored in the database. The pp is optional but displays objects easy to read
-7. `pp User.first` shows details of the first user
-8. `pp User.first.post` shows the post of the first user, if no post for the user, it displays an empty array
-9. `pp User.first.comment` displays list of the user's comments
-10. `pp Post.first.comment` displays the list of comments that belongs to the specific post
+- First run `rails c`
+- In the rails console make sure all the tables are working correctly. Run `User` then `Comment` and after `Post` and check that it doesn't throw an error
+- Then create at least one user, one post and one comment Run 
+1. `u = User.create(user_name: 'PLicdj', email: 'paci@gmail.com', password: 'abc123QBC!', password_confirmation: 'abc123QBC!')` Creates a user
+2. `p = Post.create(url_link: 'www.google.com', user_id: '1')` creates a post
+3. `c = Comment.create(comment_body: 'Something okay>', user_id: '1', post_id: '1')` creates a comment on the created post
+4. `pp User.all` shows the list of users stored in the database. The pp is optional but displays objects easy to read
+5. `pp User.first` shows details of the first user
+6. `pp User.first.post` shows the post of the first user, if no post for the user, it displays an empty array
+7. `pp User.first.comment` displays list of the user's comments
+8. `pp Post.first.comment` displays the list of comments that belongs to the specific post
 
 ## Authors
 
