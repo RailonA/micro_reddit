@@ -23,7 +23,7 @@ This project is all about building three Database tables and associating them to
 - Run `git clone git@github.com:RailonA/micro_reddit.git`
 - Go to the cloned repository run `cd micro_reddit`
 
-#### Installed required Gem
+#### Installe required Gem
 
 - In the terminale, run `bundle install`
 - [optional] Run `bundle update`
