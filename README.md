@@ -32,7 +32,6 @@ This project is all about building three Database tables and associating them to
 
 Run `rails db:migrate` and make sure the commande succeded
 
-
 #### Test the tables
 
 - First run `rails c`
